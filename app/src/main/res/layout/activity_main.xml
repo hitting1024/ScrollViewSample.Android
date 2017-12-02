@@ -15,9 +15,21 @@
             android:layout_height="wrap_content"
             android:text="Scroll To Bottom" />
 
+        <Button
+            android:id="@+id/smoothScrollToBottomButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smooth Scroll To Bottom" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="800dp" />
+
+        <Button
+            android:id="@+id/smoothScrollToTopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smooth Scroll To Top" />
 
         <Button
             android:id="@+id/scrollToTopButton"
