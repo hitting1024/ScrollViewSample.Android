@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ScrollViewSample</string>
+    <string name="title_activity_pager">PagerActivity</string>
 </resources>
