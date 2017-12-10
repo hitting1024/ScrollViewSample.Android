@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ScrollView
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.view.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val scrollToBottomButton = scrollView.scrollToBottomButton
         val scrollToTopButton = scrollView.scrollToTopButton
         val smoothScrollToBottomButton = scrollView.smoothScrollToBottomButton
+        val smoothScrollToTopButton = scrollView.smoothScrollToTopButton
 
         scrollToBottomButton.setOnClickListener {
             scrollView.scrollTo(0, scrollToTopButton.y.toInt())
